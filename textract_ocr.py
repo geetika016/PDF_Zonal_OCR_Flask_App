@@ -95,5 +95,5 @@ def ocr_this(file_name):
 
     # Start searching a key value
     #while input('\n Do you want to search a value for a key? (enter "n" for exit) ') != 'n':
-        #search_key = input('\n Enter a search key:')
-        #print('The value is:', search_value(kvs, search_key))
+    #    search_key = input('\n Enter a search key:')
+    #    print('The value is:', search_value(kvs, search_key))
