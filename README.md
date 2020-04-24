@@ -3,7 +3,7 @@ Python version: 3.8
 
 
 1. pip install r requirement.txt
-2. pip install boto
+2. pip install boto3
 3. run aws configure (if aws cli not installed : https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 	a. enter credentials for keys
 	b. region : us-east-1
