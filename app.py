@@ -47,13 +47,11 @@ def upload_file():
 def processing():
     retval =""
     retval = processor.start_processing(pdf_folder_path,pdf_filename)
-    if (len(retval) !=0):
-        data = pd.read_csv("./result.csv", index=False)
-        data = data.dropna()
+    if (retval == "hello"):
+        data = pd.read_csv("./data/result.csv")
         #data.set_index(['File_ID'], inplace=True)
-        data.index.name=None
         return render_template('results.html',tables=[data.to_html()],titles = ['na', 'OCR Results'])
-    return render_template('processing.html')
+    return render_template('no_phyto.html')
 
 
     

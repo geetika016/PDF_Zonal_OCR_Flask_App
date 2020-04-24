@@ -24,5 +24,5 @@ def multi_classification(pdf_folder_path,pdf_folder_name):
 		pdfFile = os.path.join(pdf_folder_path,file)
 		outPdfFile = os.path.join('./temp',file)
 		stringList = ["Phytosanitary Certificate"]
-		pdf_classification.extractPage(pdfFile, outPdfFile, pdf_classification.findText(pdfFile, stringList))
+		pdf_classification.extractPage(pdfFile, outPdfFile, pdf_classification.findText(pdfFile, stringList))	
 	print("DONE")

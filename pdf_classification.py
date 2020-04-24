@@ -7,6 +7,8 @@ def  findText(f, slist):
     file = open(f, 'rb')
     pdfDoc = PdfFileReader(file)
     pages = []
+    global count
+    count = 0
     for i in range(pdfDoc.getNumPages()):
         content = pdfDoc.getPage(i).extractText().lower()
         s2 = "USDA"
@@ -31,4 +33,4 @@ def extractPage(f, fOut, pages):
     outputStream = open(fOut, "wb")
     output.write(outputStream)
     outputStream.close()
-    return
+    return "Found"
