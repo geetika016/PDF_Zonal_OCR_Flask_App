@@ -8,11 +8,31 @@ This repository contains the code for a Flask App that takes a pdf document in, 
 * Take a single document or a zip folder containing .pdf documents of interest
 * Extract the page of Interest from these documents (if the document contains that page)
 * Do Zonal OCR on this Page of Interest ( a page with a form-like structure containing fields and their value)
-* In case of a single document the fields of interest are displayed, can be downloaded as a .csv
-![image]()
-* In case of multiple documents, the app displays the results of for all the documents, a View All option to view each documents extracted page of interest and on clicking the page, the extracted results are displayed for that particular document.
-![image]()
+* In case of a single document the fields of interest are displayed, can be downloaded as a .csv.
+  a . Upload the file here :
 
+     ![image](https://github.com/geetika016/PDF_Zonal_OCR_Flask_App/blob/master/screenshots/phyto_ocr%204.JPG)
+
+  b. After clicking on upload, this screen appears :
+
+     ![image of results](https://github.com/geetika016/PDF_Zonal_OCR_Flask_App/blob/master/screenshots/phyto_ocr-2.JPG)
+
+* In case of multiple documents, the app displays the results of for all the documents, a View All option to view each documents extracted page of interest and on clicking the page, the extracted results are displayed for that particular document.
+  a. Upload the .zip folder here:
+  
+     ![image_upload](https://github.com/geetika016/PDF_Zonal_OCR_Flask_App/blob/master/screenshots/phyto_ocr%204.JPG)
+	
+  b. After clicking on upload, this screen appears :
+  
+     ![image_upload](https://github.com/geetika016/PDF_Zonal_OCR_Flask_App/blob/master/screenshots/phyto_ocr.JPG)
+  
+  c. You can click on View All, to see the images of the extracted Page of Interest.
+  
+     ![image_upload](https://github.com/geetika016/PDF_Zonal_OCR_Flask_App/blob/master/screenshots/phyto_ocr%203.JPG)
+  
+  d. You can click on one of the Page of Interest to see the information specific to it.
+
+     ![image_upload](https://github.com/geetika016/PDF_Zonal_OCR_Flask_App/blob/master/screenshots/phyto_ocr%202.JPG)
 
 
 ## Prerequisites 
